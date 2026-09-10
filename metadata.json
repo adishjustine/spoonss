@@ -1,0 +1,8 @@
+{
+  "name": "Remix SPOONS KERALA RESTAURANT",
+  "description": "Authentic Kerala themed restaurant menu for SPOONS KERALA RESTAURANT featuring banana leaf pothichoru, kizhi biriyani, seafood roasts, parottas and traditional delicacies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

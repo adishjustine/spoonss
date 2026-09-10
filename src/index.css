@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-leaf-950: #0B1D12;
+    --color-leaf-900: #132E1C;
+    --color-leaf-800: #1B432A;
+    --color-leaf-700: #265C3B;
+    --color-leaf-600: #347B4F;
+    --color-leaf-500: #489D67;
+    
+    --color-terracotta-900: #5C220E;
+    --color-terracotta-800: #823214;
+    --color-terracotta-700: #A8421A;
+    --color-terracotta-600: #C25121;
+    --color-terracotta-500: #DC662E;
+    
+    --color-gold-600: #A67C33;
+    --color-gold-500: #C59B4E;
+    --color-gold-400: #DFBA6F;
+    --color-gold-300: #F3DCA0;
+    
+    --color-cream-100: #FFFDF9;
+    --color-cream-200: #FAF7F2;
+    --color-cream-300: #F3EDE3;
+    --color-cream-400: #E7DDD0;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FAF7F2;
+    color: #261E1A;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Elegant dotted leader for restaurant menus */
+.menu-leader {
+  flex-grow: 1;
+  border-bottom: 1px dotted rgba(166, 124, 51, 0.45);
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Custom scrollbar for smooth browsing */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EDE3;
+}
+::-webkit-scrollbar-thumb {
+  background: #C59B4E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A67C33;
+}
+
